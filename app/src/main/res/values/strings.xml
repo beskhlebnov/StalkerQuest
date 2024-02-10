@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StalkerQuest</string>
+    <string name="name">Викторина S.T.A.L.K.E.R</string>
+    <string name="quest_one">Как звали данного персонажа?</string>
+    <string name="quest_1_answer_4">Димиденко</string>
+    <string name="quest_1_answer_3">Призрак</string>
+    <string name="quest_1_answer_2">Круглов</string>
+    <string name="quest_1_answer_1">Сахаров</string>
+    <string name="correct">Верно!</string>
+    <string name="incorrect">Не верно!</string>
+</resources>
