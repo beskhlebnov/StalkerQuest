@@ -44,6 +44,11 @@ class MainActivity : AppCompatActivity() {
         button_three = findViewById(R.id.button3)
         button_four = findViewById(R.id.button4)
 
+        quest_text.setOnClickListener{
+            mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.size
+            setQuestion()
+        }
+
         button_next.setOnClickListener {
             mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.size
             setQuestion()
