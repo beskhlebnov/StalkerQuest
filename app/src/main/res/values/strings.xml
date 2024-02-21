@@ -1,11 +1,30 @@
 <resources>
     <string name="app_name">StalkerQuest</string>
     <string name="name">Викторина S.T.A.L.K.E.R</string>
+
+
     <string name="quest_one">Как звали данного персонажа?</string>
-    <string name="quest_1_answer_4">Димиденко</string>
+    <string name="quest_1_answer_1">Димиденко</string>
     <string name="quest_1_answer_3">Призрак</string>
     <string name="quest_1_answer_2">Круглов</string>
-    <string name="quest_1_answer_1">Сахаров</string>
+    <string name="quest_1_answer_true">Сахаров</string>
+
+
+    <string name="quest_two">Как назвается данный артефакт?</string>
+    <string name="quest_2_answer_2">Маяк</string>
+    <string name="quest_2_answer_3">Светочь</string>
+    <string name="quest_2_answer_true">Компас</string>
+    <string name="quest_2_answer_1">Душа</string>
+
+
+    <string name="quest_three">Какой группировке принаджелит эта нашивка?</string>
+    <string name="quest_3_answer_3">Свобода</string>
+    <string name="quest_3_answer_true">Наёмники</string>
+    <string name="quest_3_answer_2">Монолит</string>
+    <string name="quest_3_answer_1">Экологи</string>
+
+    <string name="next">Далее</string>
+    <string name="previous">Назад</string>
     <string name="correct">Верно!</string>
     <string name="incorrect">Не верно!</string>
 </resources>

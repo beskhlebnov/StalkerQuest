@@ -48,7 +48,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.26"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+            app:layout_constraintTop_toBottomOf="@+id/quest_img" />
 
         <Button
             android:id="@+id/button2"
@@ -60,34 +60,61 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.74"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
+            app:layout_constraintTop_toBottomOf="@+id/quest_img"/>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/brown"
-            android:text="@string/quest_1_answer_3"
+            android:text="@string/quest_1_answer_true"
             android:layout_marginTop="150dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.26"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
+            app:layout_constraintTop_toBottomOf="@+id/quest_img"/>
 
         <Button
             android:id="@+id/button4"
             android:layout_width="130dp"
             android:backgroundTint="@color/brown"
             android:layout_height="wrap_content"
-            android:text="@string/quest_1_answer_4"
+            android:text="@string/quest_1_answer_1"
             android:layout_marginTop="150dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.74"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
+            app:layout_constraintTop_toBottomOf="@+id/quest_img"/>
+
+        <ImageButton
+            android:id="@+id/button_next"
+            android:layout_width="83dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="240dp"
+            android:backgroundTint="@color/grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.74"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quest_img"
+            app:srcCompat="@drawable/next"
+            android:contentDescription="@string/next" />
+
+
+        <ImageButton
+            android:id="@+id/button_previous"
+            android:layout_width="83dp"
+            android:layout_height="59dp"
+            android:backgroundTint="@color/grey"
+            app:srcCompat="@drawable/previous"
+            android:layout_marginTop="240dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quest_img"
+            android:contentDescription="@string/previous" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/text_quest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
@@ -99,15 +126,28 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/quest_img"
             android:layout_width="182dp"
             android:layout_height="195dp"
             android:layout_marginTop="40dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/text_quest"
             app:srcCompat="@drawable/saharov" />
+
+        <TextView
+            android:id="@+id/number_quest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/brown"
+            android:padding="5dp"
+            android:text="Вопрос №1"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
